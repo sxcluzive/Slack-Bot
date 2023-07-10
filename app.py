@@ -2,9 +2,9 @@ import os
 import sqlite3
 from slack_bolt import App
 from slack_bolt.adapter.socket_mode import SocketModeHandler
-from test.scheduler import scheduler
+from scheduler import scheduler
 from bardapi import Bard
-from test.query_parser import *
+from query_parser import *
 import logging
 
 
