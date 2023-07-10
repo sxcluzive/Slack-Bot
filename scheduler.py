@@ -41,5 +41,5 @@ def scheduler():
             print("Error sending message: {}".format(e))
 
 if __name__ == "__main__":
-    client = WebClient(token="xoxb-5538035629364-5528991484486-lsIJpPeid6ufU4o80uwnfqJL")
+    client = WebClient(token=os.environ["SLACK_BOT_TOKEN")
     scheduler()
