@@ -42,7 +42,7 @@ def approve_request(ack, say):
         cursor = conn.cursor()
         # Get the user query from the message text
         query = message["text"]
-        # Convert the query to SQL using openAI or any other API
+        # Convert the query to SQL using Bard
         sql = convert_to_sql(query)
         # Execute the SQL query on the database cursor
         try:
